@@ -224,7 +224,6 @@
       "User": {
         "title": "User",
         "type": "object",
-        "description": "",
         "x-examples": {
           "Alice Smith": {
             "id": 142,
@@ -271,7 +270,8 @@
           "firstName",
           "lastName",
           "email",
-          "emailVerified"
+          "emailVerified",
+          "createDate"
         ]
       }
     }
